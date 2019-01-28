@@ -1,0 +1,103 @@
+/* ************************** Powerpoint section ************************************************/
+.powerpoint-section{
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	padding-top: 30px;
+}
+.powerpoint-table .powerpoint-table-row1 td{
+	height: 350px;
+	width: 50%;
+	padding: 10px 0px;
+	margin-top: 0px;	
+}
+
+#powerpoint-text{
+	color: #e0af0dcb;
+	padding: 50px;
+	font-size: 25px;
+	text-align: justify;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.powerpoint-table-row1 #powerpoint-design{
+	padding-left: 25px;
+	border-top: #13e2bf 5px dashed;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li{
+	float: left;
+	list-style-type: none;
+	padding-left: 5px;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li #powerpoint-list-image-list-items{
+	width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li #list-item-bottom-border-shape{
+	width: 280px;
+	height: 10px;
+	margin-left: 10px;
+	background-color: #8909d3be;
+	border-radius: 20px;
+}
+
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li #powerpoint-list-text-list-items{
+	font-size: 14px;
+	padding-left: 15px;
+	color: white;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li #powerpoint-list-image-process-analysis{
+	width: 300px;
+	height: 200px;
+	border-radius: 50px;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li #process-analysis-bottom-border-shape{
+	width: 280px;
+	height: 10px;
+	margin-left: 10px;
+	background-color: #0917d3be;
+	border-radius: 20px;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-list li #powerpoint-list-text-process-analysis{
+	font-size: 14px;
+	padding-left: 30px;
+	color: white;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-link{
+	padding-top: 20px;
+	padding-left: 25px;
+	clear: both;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-link #powerpointLink{
+	font-size: 16px;
+	background-color: #361172d0;
+	padding: 10px 20px;
+	color: white;
+	transition: all 0.5 ease-in;
+	text-align: center;
+	border-top-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+}
+
+.powerpoint-table-row1 #powerpoint-design .powerpoint-design-link #powerpointLink:hover{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 18px;
+	 background-color: transparent;
+	 border: 1px solid rgba(236, 102, 13, 0.822);
+	 border-top-right-radius: 25px;
+	color: #13e2bf;
+	text-decoration: none;
+ }
+ 

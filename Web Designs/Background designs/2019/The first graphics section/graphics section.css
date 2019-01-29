@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.graphics-design-section{
+	background: #0E0115;
+	padding-bottom: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.graphics-design-table .graphic-design-row1{
+	width: 100%;
+	height: 500px;
+}
+
+.graphics-design-table .graphic-design-row1 #graphic-design-shapes{	
+	width: 25%;
+	padding: 10px 0px;
+	margin-top: 0px;
+}
+
+#graphic-design-shapes #outer-circle{
+	width: 250px;
+	height: 250px;
+	position: relative;
+	border-radius: 125px;
+	background-color: #9e8707d0;
+}
+#graphic-design-shapes #middle-circle{
+	left: 25px;
+	top: 25px;
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	border-radius: 100px;
+	background-color: #82c20bf1;
+}
+
+#graphic-design-shapes #inner-circle{
+	left: 25px;
+	top: 25px;
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	border-radius: 150px;
+	background-color: #45ec2ff1;
+}
+
+#graphic-design-shapes #core{
+	left: 25px;
+	top: 25px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border-radius: 100px;
+	background-color: #041402f1;
+	font-size: 16px;
+	padding-top: 40px;
+	padding-left: 17px;
+	color: #eaee11;
+}
+
+ .graphics-design-table .graphic-design-row1 #graphic-design-shapes2{	
+	width: 25%;
+	padding: 10px 0px;
+	margin-top: 0px;
+}
+
+#cut-diamond {
+	border-style: solid;
+	border-color: transparent transparent red transparent;
+	border-width: 0 50px 50px 50px;
+	height: 0;
+	width: 200px;
+	box-sizing: content-box;
+	position: relative;
+	margin: 20px 0 50px 0;
+}
+#cut-diamond:after {
+	content: "";
+	position: absolute;
+	top: 50px;
+	left: -50px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: red transparent transparent transparent;
+	border-width: 200px 150px 0 150px;
+}
+
+.graphics-design-table .graphic-design-row1 #graphic-design-text{	
+	width: 50%;
+	padding: 10px 20px 30px 20px;
+	margin-top: 0px;
+}
+
+#graphic-design-text{
+	font-size: 45px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #13e2bf;
+	text-align: justify;
+}
+
+#graphic-design-text a{
+	font-size: 16px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: #9e8707d0;
+	padding: 10px 20px;
+	color: white;
+	transition: all 0.5 ease-in;
+	text-align: center;
+}
+
+#graphic-design-text a:hover{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	 font-size: 18px;
+	 background-color: transparent;
+	 border: 1px solid rgba(236, 102, 13, 0.822);
+	 border-top-right-radius: 20px;
+	color: #13e2bf;
+	text-decoration: none;
+ }
+
+ 
+ /* ******************************************************** VGraphic design section 2 ***************************/
+ .graphic-design-section2{
+    height: 350px;
+    width: 100%;
+    background: #0E0115;
+}
+
+.graphic-design-section2 .graphic-design-section2-column1{
+    padding-left: 30px;
+   width: 33.3%;
+   float: left;	
+}
+
+.graphic-design-section2 .graphic-design-section2-column1 #perfume-isaac{
+   width: 350px;
+   height: 300px;
+}
+
+.graphic-design-section2 .graphic-design-section2-column1 #text{
+   font-size: 16px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white; 
+}
+
+.graphic-design-section2 .graphic-design-section2-column2{
+   width: 33.3%;
+   float: left;
+   padding-left: 30px;
+}
+
+.graphic-design-section2 .graphic-design-section2-column2 #flyer-how-to-build-a-21-century{
+   width: 350px;
+   height: 300px;
+}
+
+.graphic-design-section2 .graphic-design-section2-column2 #text-flyer{
+   font-size: 16px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white; 
+}
+
+.graphic-design-section2 .graphic-design-section2-column3{
+   width: 33.3%;
+   float: left;
+   padding-left: 30px;
+}
+
+.graphic-design-section2 .graphic-design-section2-column3 #designed-book{
+   width: 350px;
+   height: 300px;
+}
+
+.graphic-design-section2 .graphic-design-section2-column3 #text-book{
+   font-size: 16px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   color: white; 
+}

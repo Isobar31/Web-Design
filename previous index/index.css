@@ -1,0 +1,163 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	text-decoration:none;
+	box-sizing: border-box;	
+}
+
+.pageBank{
+	overflow:auto;
+	height:auto;
+}
+
+#logo{
+	width:150px;
+	height:100px;
+	margin: 0px 10px 0px 10px;
+}
+
+.menuBar{
+	position: sticky;
+	top: 0px;
+	height: auto;
+	font-size: 14px;
+	background:white;
+}
+
+
+
+.searchContainer .searchBox{
+  display: inline-flex;
+  height: 40px;
+}
+
+ .searchContainer .searchBox .search-box-input{
+  font-size: 16px;
+  outline: 0;
+  width: 250px;
+  padding: 5px;
+  height: 40px;
+}
+
+ .searchContainer .searchBox .search-box-input:hover,
+ .searchContainer .searchBox .search-box-input:focus{
+  padding: 3px;
+}
+
+ .searchContainer .searchBox .search-box-button{
+  font-size: 20px;
+  width: 80px;
+  height: 40px;
+  background: orange;
+  outline: 0;
+  cursor: pointer;
+  color: #a32358;
+  border-color: orange;
+  margin-right: 20px;
+
+}
+
+ .searchContainer .searchBox .search-box-button:hover,
+.searchContainer .searchBox .search-box-button:focus{
+  border-color: orange;
+}
+
+nav{
+  box-shadow: 0 0 15px 0 white;
+}
+
+nav ul{
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  position: relative;
+  text-align: left;
+	background-color:white;
+	text-align: center;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  color: rgb(90, 88, 88);
+  filter: blur(0.2px);
+  opacity: 0.7;
+  text-decoration: none;
+  display: block;
+  padding: 20px 60px 20px 0px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 18px;
+}
+
+nav li:hover{ /*This makes main menu to be inclusively highlighted as long as its sub menu(s) is/are hovered*/
+  background: white;
+	font-size: 18px;
+}
+
+nav li:hover a{
+  color: black;
+  font-size: 18px;
+}
+
+.menuMain li #MenuDesignPoint{
+  color: black;
+  font-size: 25px;
+}
+
+.menuMain li #Portfolios{
+  margin-left: 200px;
+}
+
+.menuSub{
+   position: absolute; /*This makes the sub menu to come below the main menu in relation. */
+  background: rgb(126, 51, 126);
+  width: 50%;
+  display: none;  /*This hides the sub menu*/
+  color: black;
+  padding: 15px;
+  left: 0px; /*This makes the sub menu arranged well*/
+  margin: 0% 25%;
+}
+
+#columnBackground{
+  background: rgb(126, 51, 126);
+}
+
+nav li:hover .menuSub{
+  display: block;
+}
+
+.menuSub li{
+  display: block; /* This allows the sub menu links to be vertical*/
+}
+
+.menuSub a{
+  padding: 0px;
+  margin: 0px 5px 15px 0px;
+}
+
+.menuSub a:hover{
+  text-decoration: none;
+	font-size: 17px;
+  color: rgb(14, 13, 13);
+}
+
+.subjects{
+	margin: 2cm 0px .5cm;
+	color: black;
+}
+
+.subjects:first-of-type{ /*child selector pointing the top heading known as Science subjects thereby removing the space with margin 0.*/
+  margin-top: 0px;
+}
+
+.column_1,
+.column_2,
+.column_3,
+.column_4{
+	float: left;
+  width: 25%;
+  padding: 0px 15px;
+}

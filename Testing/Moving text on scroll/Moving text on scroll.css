@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 5000px;
+    overflow-x: hidden;
+    background: #00947a;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    font-family: sans-serif;
+    position: fixed;
+    transform: translateY(-50%);
+    white-space: nowrap;
+    font-size: 5em;
+    color: #fff;
+    left: 500px;
+}

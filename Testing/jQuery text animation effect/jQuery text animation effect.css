@@ -1,0 +1,11 @@
+.text-box{
+    margin: 200px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.split-text{
+    padding: 15px;
+    font-size: 70px;
+    font-family: sans-serif;
+}
